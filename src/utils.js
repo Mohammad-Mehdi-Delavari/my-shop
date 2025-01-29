@@ -1,0 +1,222 @@
+let carouselInfos = [
+  {
+    id: 1,
+    img: "./images/slide1-demo1_prev_ui.png",
+    countType: "پیشنهاد مدت محدود",
+    title: "صندلی راحتی",
+    link: "#",
+    bg: "#00897B",
+  },
+  {
+    id: 2,
+    img: "./images/slide2-demo1_prev_ui.png",
+    countType: "تا 40 درصد تخفیف",
+    title: "لوسیون بدن وصورت",
+    link: "#",
+    bg: "#FFAB40",
+  },
+  {
+    id: 3,
+    img: "./images/slide3-demo1.png",
+    countType: "پیشنهاد مدت محدود",
+    title: "دوربین فوری",
+    bg: "#E53935",
+    link: "#",
+  },
+];
+let HomeBannerInfos = [
+  {
+    title: "فروش بزرگ",
+    category: "بلک فرایدی",
+    link: "#",
+    caption: "بیش از 100 محصول",
+    img: "./images/banner1-mobile-demo1-e1730092459727.jpg",
+  },
+  {
+    title: "پافر 30 درصد تخفیف",
+    category: "مجموعه جدید",
+    link: "#",
+    caption: "بهترین ژاکت در سال",
+    img: "./images/banner2-mobile-demo1-e1730092581263.jpg",
+  },
+];
+let HomeBrandSliderInfos = [
+  { id: "1", img: "./images/items/cat-1.jpg", title: "گوشی هوشمند" },
+  { id: "2", img: "./images/items/cat-2.jpg", title: "خانه و دکوراسیون" },
+  { id: "3", img: "./images/items/cosmetic-cat-7.jpg", title: "آرایش" },
+  { id: "4", img: "./images/items/cat-4.jpg", title: "قطعات خودرو" },
+  { id: "5", img: "./images/items/cat-5.jpg", title: "لپ تاپ و کامپیوتر" },
+  { id: "6", img: "./images/items/cat-6.jpg", title: "مد و پوشاک" },
+  { id: "7", img: "./images/items/cat-7.jpg", title: "هدفون" },
+  { id: "8", img: "./images/items/cat-8-100x100.jpg", title: "کیف دستی" },
+];
+let HomeDiscountItemsInfos = [
+  {
+    id: 1,
+    title: "پودر صورت فشرده صاف",
+    img: "./images/HomeDiscount/cosmetics-33-300x300.jpg",
+    price: 150000,
+    discount: 20,
+    link: "#",
+  },
+  {
+    id: 2,
+    title: "رژ لب بسیار درخشان",
+    img: "./images/HomeDiscount/cosmetics-40-1-300x300.jpg",
+    price: 150000,
+    discount: 20,
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "تونگا روی تیشرت مردانه",
+    img: "./images/HomeDiscount/fashion-10-1-300x300.jpg",
+    price: 150000,
+    discount: 20,
+    link: "#",
+  },
+  {
+    id: 4,
+    title: "چرخ های فیبر کربنی",
+    img: "./images/HomeDiscount/automotive-13-300x300.jpg",
+    price: 150000,
+    discount: 20,
+    link: "#",
+  },
+  {
+    id: 5,
+    title: "کفش ورزشی مردانه نایک",
+    img: "./images/HomeDiscount/fashion-20-2-300x300.jpg",
+    price: 150000,
+    discount: 20,
+    link: "#",
+  },
+  {
+    id: 6,
+    title: "ست کامپیوتر و کیبورد",
+    img: "./images/HomeDiscount/electronic-31-5-300x300.jpg",
+    price: 150000,
+    discount: 20,
+    link: "#",
+  },
+  {
+    id: 7,
+    title: "اپل واچ سری 9",
+    img: "./images/HomeDiscount/electronic-14-2-300x300.jpg",
+    price: 150000,
+    discount: 20,
+    link: "#",
+  },
+  {
+    id: 8,
+    title: "چرخ دستی هیدرولیکی",
+    img: "./images/HomeDiscount/automotive-11-300x300.jpg",
+    price: 150000,
+    discount: 20,
+    link: "#",
+  },
+];
+let HomeNewProsInfos = [
+  {
+    id: 1,
+    title: "کفش کتانی مردانه نایک ایر مکس یونیسکس",
+    img: "./images/newPros/fashion-5-300x300.jpg",
+    price: 150000,
+    link: "#",
+  },
+  {
+    id: 2,
+    title: "عینک آفتابی مردانه 100% محافظت شده در برابر اشعه ماوراء بنفش",
+    img: "./images/newPros/fashion-9-300x300.jpg",
+    price: 150000,
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "دامن مینی جین لهجه چرمی زنانه LV",
+    img: "./images/newPros/fashion-6-300x300.jpg",
+    price: 150000,
+    link: "#",
+  },
+  {
+    id: 4,
+    title: "یک ژاکت بافتنی کریسمس متفاوت تعطیلات",
+    img: "./images/newPros/fashion-16-300x300.jpg",
+    price: 150000,
+    link: "#",
+  },
+  {
+    id: 5,
+    title: "ژاکت جدید زمستانی",
+    img: "./images/newPros/fashion-1-300x300.jpg",
+    price: 150000,
+    link: "#",
+  },
+  {
+    id: 6,
+    title: "کلاه زمستانی با طرح سفارشی توپ بالا",
+    img: "./images/newPros/fashion-3-300x300.jpg",
+    price: 150000,
+    link: "#",
+  },
+];
+let HomeBlogPostInfos = [
+  {
+    id: 1,
+    img: "./images/blogPost/blog-4.jpg",
+    title: "نقد و بررسی ادو پرفیوم جورجیو آرمانی سی اینتنس",
+    category: "لوازم آرایشی",
+    author: "admin",
+    description:
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده",
+    link: "#",
+  },
+  {
+    id: 2,
+    img: "./images/blogPost/blog-5-1.jpg",
+    title: "بهترین خودروهای قابل تبدیل مقرون به صرفه برای اجاره",
+    category: "قطعات خودرو",
+    author: "admin",
+    description:
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده",
+    link: "#",
+  },
+  {
+    id: 3,
+    img: "./images/blogPost/blog-3.jpg",
+    title: "نکاتی برای تمیز کردن دسکتاپ و لپ تاپ",
+    category: "الکترونیک",
+    author: "admin",
+    description:
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده",
+    link: "#",
+  },
+  {
+    id: 4,
+    img: "./images/blogPost/blog-6.jpg",
+    title: "10 نکته برای یادگیری از استراتژی بازاریابی اپل",
+    category: "الکترونیک",
+    author: "admin",
+    description:
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده",
+    link: "#",
+  },
+  {
+    id: 5,
+    img: "./images/blogPost/blog-1.jpg",
+    title: "الهام بخش لباس های روز هفته برای همه مناسبت ها",
+    category: "زیبایی و مد",
+    author: "admin",
+    description:
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده",
+    link: "#",
+  },
+];
+export {
+  carouselInfos,
+  HomeBannerInfos,
+  HomeBrandSliderInfos,
+  HomeDiscountItemsInfos,
+  HomeNewProsInfos,
+  HomeBlogPostInfos,
+};
